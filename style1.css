@@ -10,9 +10,7 @@
 }
 
 section{
-    background: url("imgs1/‏‏imghome.png") no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #010a43;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,8 +26,7 @@ section{
     background-color: #ffffff10;
     max-width: 400px;
     margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px  43px 17px rgba(153,153 , 153, 1);
-    backdrop-filter: blur(12px);
+    box-shadow: -5px 10px 75px 1px #0000008c;
     border-radius: 10px;
 
 }
@@ -40,6 +37,7 @@ section{
     line-height: 70px;
     padding: 16px 8px;
     font-size: 2.5rem;
+    color: orange;
 }
 
 .buttons{
@@ -50,6 +48,7 @@ section{
     width: 400px;
     height: 445px;
     justify-items: center;
+    border: none;
 
 }
 
@@ -60,19 +59,28 @@ section{
 }
 
 .button{
-    color:white;
+    color:orange;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 500;
     font-size: 1.7rem;
     cursor: pointer;
-    background-color: #00000070;
-    
-
+    background-color: #010a43;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    box-shadow: -5px 0px 3px 1px #0000008c;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+   
 }
 
 #equal{
@@ -81,8 +89,12 @@ section{
 }
 
 .button:hover{
-    background-color: #8282826d;
-    color: white;
+   
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
